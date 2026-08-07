@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "desktop-wallpaper-20260807-miku",
+  "name": "我的桌面·夏日Miku",
+  "brandSubtitle": "CODEX DREAM SKIN",
+  "tagline": "把夏日 Miku 带进 Codex。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉ 选择项目",
+  "statusText": "SUMMER MIKU",
+  "quote": "MAKE SOMETHING WONDERFUL",
+  "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#b8ddf2",
+    "panel": "#eef6fc",
+    "panelAlt": "#e2eff9",
+    "accent": "#26b6c4",
+    "accentAlt": "#7fdbe4",
+    "secondary": "#f29fc0",
+    "highlight": "#f4b8d0",
+    "text": "#233a4d",
+    "muted": "#5f7d94",
+    "line": "rgba(38, 182, 196, .28)"
+  }
+}

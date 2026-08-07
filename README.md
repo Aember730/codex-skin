@@ -15,6 +15,7 @@
 - `install-and-apply.ps1` / `install-and-apply.cmd` — 一键安装引擎并应用主题
 - `dream-skin-local-polish.css` — 自定义引擎样式补丁（聊天框分层修复、顶部透明度统一、隐藏首页装饰文字等）
 - `WALLPAPER-SETTINGS.md` — 两个壁纸的来源与制作设置说明
+- `COMPOSITION.md` — 从源文件重新合成背景的精确步骤
 
 ## 使用
 

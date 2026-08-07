@@ -1,0 +1,22 @@
+# 背景合成配方
+
+仓库已包含最终背景图（`desktop-wallpaper-codex-skin*/background.jpg`），直接使用即可完整复现。以下是从 `sources/` 源文件重新生成的精确步骤。
+
+## 紫罗兰（我的桌面·紫罗兰）
+
+源文件：`sources/violet/background-hd.png`（6208×3520 纯背景）、`sources/violet/character-layer.png`（2156×3291 人物透明层）、`sources/violet/preview.jpg`（1024×1024 官方预览）。
+
+1. 以官方预览为布局参考：人物层内容几乎铺满预览高度、居中。
+2. 画布 2560×1440，纯背景按 cover 缩放铺满（scale = max(2560/6208, 1440/3520)，居中裁剪）。
+3. 人物层等比缩放至内容高度约 1368px，中心对齐 (1280, 720) 叠加。
+4. 输出 JPEG，质量 92。
+
+## 夏日Miku（我的桌面·夏日Miku）
+
+源文件：`sources/miku/background-4k.png`（3840×2160 纯背景）、`layer-00/02/03/04/05.png`（4K 透明层）、`preview.gif`（官方预览）。
+
+1. 4K 画布 3840×2160，以 `background-4k.png` 为底。
+2. 按顺序做 alpha 叠加：`03 → 00 → 04 → 02 → 05`（该顺序由官方预览图匹配确定）。
+3. 缩放到 2560×1440（LANCZOS），输出 JPEG，质量 92。
+
+注意：原壁纸是动态场景，动画/粒子特效无法在静态背景中复现；最终静态背景图已随仓库提供。
