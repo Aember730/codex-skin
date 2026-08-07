@@ -1,0 +1,15 @@
+# 敏感文件（绝不提交）
+auth.json
+*.key
+*.pem
+config.toml
+.env
+credentials*
+**/.codex/
+**/work/
+*.log
+
+# 系统 / 临时
+Thumbs.db
+Desktop.ini
+.DS_Store

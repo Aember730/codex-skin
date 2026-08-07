@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "desktop-wallpaper-20260806",
+  "name": "我的桌面·紫罗兰",
+  "brandSubtitle": "CODEX DREAM SKIN",
+  "tagline": "把此刻的桌面带进 Codex。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉ 选择项目",
+  "statusText": "VIOLET EVERGARDEN",
+  "quote": "MAKE SOMETHING WONDERFUL",
+  "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#efe8d4",
+    "panel": "#f8f2e4",
+    "panelAlt": "#efe6d2",
+    "accent": "#3f7fc1",
+    "accentAlt": "#7fb2e0",
+    "secondary": "#8a6f4a",
+    "highlight": "#b08d3e",
+    "text": "#3a3227",
+    "muted": "#6f6351",
+    "line": "rgba(139, 116, 74, .28)"
+  }
+}

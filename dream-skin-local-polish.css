@@ -1,0 +1,20 @@
+/* Local polish for Codex Dream Skin - custom fixes */
+html[data-dream-skin="active"] [class*="_ComposerLayoutBody_"] {
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: none !important;
+}
+
+html[data-dream-skin="active"] [class*="_ComposerHomeUtilityBar_"] {
+  background-color: transparent !important;
+}
+
+html[data-dream-skin="active"] [class*="_ApplicationMenuTopBar_"] {
+  background-color: rgba(244, 236, 218, 0.62) !important;
+}
+
+html[data-dream-skin="active"] button.cursor-interaction.bg-token-main-surface-primary {
+  background-color: rgb(var(--ds-panel-rgb) / 0.92) !important;
+  border-color: var(--ds-line) !important;
+  color: var(--ds-text) !important;
+  box-shadow: 0 6px 18px rgb(var(--ds-bg-rgb) / 0.16) !important;
+}
