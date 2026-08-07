@@ -1,4 +1,4 @@
-/* Local polish for Codex Dream Skin - custom fixes */
+﻿/* Local polish for Codex Dream Skin - custom fixes */
 html[data-dream-skin="active"] [class*="_ComposerLayoutBody_"] {
   background-color: rgb(255, 255, 255) !important;
   box-shadow: none !important;
@@ -9,9 +9,15 @@ html[data-dream-skin="active"] [class*="_ComposerHomeUtilityBar_"] {
 }
 
 html[data-dream-skin="active"] [class*="_ApplicationMenuTopBar_"] {
-  background-color: rgba(244, 236, 218, 0.62) !important;
+  background-color: color-mix(in srgb, var(--ds-panel) 62%, transparent) !important;
 }
 
+html[data-dream-skin="active"] [role="main"]:has([data-testid="home-icon"]) [data-feature="game-source"]::before,
+html[data-dream-skin="active"] [role="main"]:has([data-testid="home-icon"]) [data-feature="game-source"]::after,
+html[data-dream-skin="active"] main:is(.main-surface, [data-app-shell-main-surface], [class*="_MainContentSurface_"]):not(:has([role="main"])) > header:is(.app-header-tint, [data-app-shell-header-edge-scroll], [class*="_Header_"])::before {
+  display: none !important;
+}
+/* Local polish: keep floating action surfaces on the theme palette. */
 html[data-dream-skin="active"] button.cursor-interaction.bg-token-main-surface-primary {
   background-color: rgb(var(--ds-panel-rgb) / 0.92) !important;
   border-color: var(--ds-line) !important;

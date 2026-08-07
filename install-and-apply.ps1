@@ -1,7 +1,10 @@
+param(
+  [string]$ThemeZip = (Join-Path $PSScriptRoot 'desktop-wallpaper-codex-skin.zip')
+)
+
 $ErrorActionPreference = 'Stop'
 
 $StateRoot = Join-Path $env:LOCALAPPDATA 'CodexDreamSkin'
-$ThemeZip = Join-Path $PSScriptRoot 'desktop-wallpaper-codex-skin.zip'
 $SkillRoot = 'C:\Users\zzx\.codex\skills\codex-dream-skin'
 $Installer = Join-Path $SkillRoot 'scripts\install-dream-skin.ps1'
 $Common = Join-Path $SkillRoot 'scripts\common-windows.ps1'
