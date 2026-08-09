@@ -36,7 +36,16 @@
   - 直接等比缩放到 2560×1440，未做图层合成
 - 主题：`desktop-wallpaper-codex-skin-starry/`，ID `desktop-wallpaper-20260809-starry`
 
+## 我的桌面·Miku海色
+
+- Wallpaper Engine 创意工坊：**Hatsune Miku - 海色**（Workshop `2847166295`）
+- 类型：Video（动态视频，2000×1124）
+- 制作方式：
+  - 从 `20s慢_1.mp4` 抽取第 15 秒最清晰的一帧（2000×1124，见 `sources/mikusea/background-full.png`）
+  - 直接缩放到 2560×1440，未做图层合成
+- 主题：`desktop-wallpaper-codex-skin-mikusea/`，ID `desktop-wallpaper-20260809-mikusea`
+
 ## 说明
 
 - Wallpaper Engine 的完整 `config.json`（含设备配对私钥）不会上传到本仓库，只记录以上来源与制作方式。
-- 四个主题都可在 Dream Skin 托盘「已保存主题」中随时切换。
+- 五个主题都可在 Dream Skin 托盘「已保存主题」中随时切换。

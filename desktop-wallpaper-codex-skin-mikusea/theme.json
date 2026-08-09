@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "desktop-wallpaper-20260809-mikusea",
+  "name": "我的桌面·Miku海色",
+  "brandSubtitle": "CODEX DREAM SKIN",
+  "tagline": "把海色 Miku 带进 Codex。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉ 选择项目",
+  "statusText": "MIKU SEA",
+  "quote": "MAKE SOMETHING WONDERFUL",
+  "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#8ec9f5",
+    "panel": "#f4fafd",
+    "panelAlt": "#e4f1fa",
+    "accent": "#3f9fd8",
+    "accentAlt": "#7ec4ea",
+    "secondary": "#f0a8c0",
+    "highlight": "#f6c8d8",
+    "text": "#20303f",
+    "muted": "#5b7488",
+    "line": "rgba(63, 159, 216, .28)"
+  }
+}

@@ -1,11 +1,12 @@
 # Codex Dream Skin — 个人主题仓库
 
-基于 [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 的个人定制主题，包含四个从 Wallpaper Engine 壁纸制作的自定义背景：
+基于 [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 的个人定制主题，包含五个从 Wallpaper Engine 壁纸制作的自定义背景：
 
 - `desktop-wallpaper-codex-skin/` — **我的桌面·紫罗兰**（2560×1440）
 - `desktop-wallpaper-codex-skin-miku/` — **我的桌面·夏日Miku**（2560×1440）
 - `desktop-wallpaper-codex-skin-sunsetcat/` — **我的桌面·日落猫**（2560×1440）
 - `desktop-wallpaper-codex-skin-starry/` — **我的桌面·星空夜**（2560×1440）
+- `desktop-wallpaper-codex-skin-mikusea/` — **我的桌面·Miku海色**（2560×1440）
 
 每个主题目录都是完整三件套：`background.jpg` + `theme.json` + `theme.css`，并附有可直接托盘导入的 ZIP。
 
@@ -15,10 +16,11 @@
 - `desktop-wallpaper-codex-skin-miku/` / `desktop-wallpaper-codex-skin-miku.zip` — 夏日Miku主题
 - `desktop-wallpaper-codex-skin-sunsetcat/` / `desktop-wallpaper-codex-skin-sunsetcat.zip` — 日落猫主题
 - `desktop-wallpaper-codex-skin-starry/` / `desktop-wallpaper-codex-skin-starry.zip` — 星空夜主题
-- `sources/` — 四个壁纸的源文件（纯背景、人物层、完整场景图、官方预览图等）
+- `desktop-wallpaper-codex-skin-mikusea/` / `desktop-wallpaper-codex-skin-mikusea.zip` — Miku海色主题
+- `sources/` — 五个壁纸的源文件（纯背景、人物层、完整场景图、视频抽帧、官方预览图等）
 - `install-and-apply.ps1` / `install-and-apply.cmd` — 一键安装引擎并应用主题
 - `dream-skin-local-polish.css` — 自定义引擎样式补丁（聊天框分层修复、顶部透明度统一、隐藏首页装饰文字等）
-- `WALLPAPER-SETTINGS.md` — 四个壁纸的来源与制作设置说明
+- `WALLPAPER-SETTINGS.md` — 五个壁纸的来源与制作设置说明
 - `COMPOSITION.md` — 从源文件重新合成背景的精确步骤
 
 ## 使用
@@ -52,4 +54,4 @@
 
 ## 素材版权提醒
 
-背景源文件来自 Wallpaper Engine 创意工坊作品（紫罗兰 3022080536 / 夏日Miku 3484246124 / 日落猫 3373818743 / 星空夜 3002226732），仅供个人复现使用；如需公开分发请自行确认素材授权。
+背景源文件来自 Wallpaper Engine 创意工坊作品（紫罗兰 3022080536 / 夏日Miku 3484246124 / 日落猫 3373818743 / 星空夜 3002226732 / Miku海色 2847166295），仅供个人复现使用；如需公开分发请自行确认素材授权。
