@@ -1,0 +1,27 @@
+[data-ds-part="header"] {
+  background-color: transparent;
+  border-bottom-style: none;
+}
+
+[data-ds-part="thread"] {
+  background-color: transparent;
+}
+
+[data-ds-part="composer"] {
+  background-color: rgba(255, 255, 255, 0.96);
+  border-radius: 18px;
+  border-style: none;
+  box-shadow: none;
+}
+
+[data-ds-part="composer-toolbar"] {
+  color: #241d2b;
+}
+
+[data-ds-part="dialog"] {
+  background-color: rgba(248, 244, 247, 0.96);
+}
+
+[data-ds-part="project-list"] {
+  background-color: rgba(237, 230, 238, 0.66);
+}

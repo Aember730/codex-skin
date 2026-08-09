@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "desktop-wallpaper-20260809-sunsetcat",
+  "name": "我的桌面·日落猫",
+  "brandSubtitle": "CODEX DREAM SKIN",
+  "tagline": "把 Sunset Cat 带进 Codex。",
+  "projectPrefix": "选择项目 · ",
+  "projectLabel": "◉ 选择项目",
+  "statusText": "SUNSET CAT",
+  "quote": "MAKE SOMETHING WONDERFUL",
+  "image": "background.jpg",
+  "appearance": "auto",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.48,
+    "safeArea": "left",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#2e2433",
+    "panel": "#f8f4f7",
+    "panelAlt": "#ede6ee",
+    "accent": "#e8965f",
+    "accentAlt": "#f2bd8f",
+    "secondary": "#b78bc4",
+    "highlight": "#d0abd8",
+    "text": "#241d2b",
+    "muted": "#6b6170",
+    "line": "rgba(232, 150, 95, .30)"
+  }
+}
